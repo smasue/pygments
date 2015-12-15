@@ -46,10 +46,10 @@ $linenos: #A9B7C6;
    .n { color: $varAndProp } /* Name */
    .o { color: $operators } /* Operator */
    .p { color: $varAndProp } /* Punctuation */
-   .cm { color: #75715e } /* Comment.Multiline */
-   .cp { color: #75715e } /* Comment.Preproc */
-   .c1 { color: #75715e } /* Comment.Single */
-   .cs { color: #75715e } /* Comment.Special */
+   .cm { color: $comments } /* Comment.Multiline */
+   .cp { color: $comments } /* Comment.Preproc */
+   .c1 { color: $comments } /* Comment.Single */
+   .cs { color: $comments } /* Comment.Special */
    .ge { font-style: italic } /* Generic.Emph */
    .gs { font-weight: bold } /* Generic.Strong */
    .kc { color: $keywords } /* Keyword.Constant */
@@ -99,7 +99,7 @@ $linenos: #A9B7C6;
    .il { color: $numbers} /* Literal.Number.Integer.Long */
 
    .gh { } /* Generic Heading & Diff Header */
-   .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
+   .gu { color: $comments; } /* Generic.Subheading & Diff Unified/Comment? */
    .gd { color: $operators; } /* Generic.Deleted & Diff Deleted */
    .gi { color: $names; } /* Generic.Inserted & Diff Inserted */
    .l-Scalar-Plain {color: $names}
